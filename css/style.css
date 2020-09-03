@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+}
+h1,h2,h3,h4,h5,h6,p,span,input{
+	font-family: 'Playfair Display', serif;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+a:hover,a{
+	text-decoration: none;
+}
+/*header section css start*/
+.main-header{
+	width: 100%;
+	float: left;
+	padding: 30px 0;
+}
+.logo{
+	width: 30%;
+	float: left;
+}
+.menu-item{
+	width: 70%;
+	float: right;
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 100px;
+}
+.menu-item ul li a{
+	text-transform: uppercase;
+}
+/*header section css end*/
+/*banner section css start*/
+.banner{
+	width: 100%;
+	display: flow-root;
+}
+.post-details{
+	margin: 80px;
+	margin-left: 0px;
+}
+.post-details span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+
+}
+.post-details h1{
+	margin-left: 0px
+	margin: 18px;
+	font-weight: 600;
+}
+.post-details p{
+	margin-bottom: 25px;
+}
+/*banner section css end*/
+/*gallery section css starts */
+.blog-gallery{
+	width: 100%;
+	display: flow-root;
+}
+.gallery{
+	width: 92%;
+	float: left;
+}
+.left{
+	width: 46%;
+	float: left;
+	margin: 20px;
+}
+.right{
+	width: 46%;
+	float: right;
+	margin: 20px;
+}
+.post-body img{
+	margin-bottom: 25px;
+}
+.post-body span{
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+/*gallery section css ends */
+/*subscription section css starts here*/
+.subscribe{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+	padding: 80px 0;
+	text-align: center;
+}
+.title{
+	margin-bottom: 30px;
+}
+.title h1{
+	font-weight: 500;
+}
+.form input{
+	width: 200px;
+    background: transparent;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+form input:focus{
+	outline: none;
+}
+form i{
+	position: absolute;
+	right: 42%;
+}
+/*load more section css*/
+.button{
+	width: 50%;
+    text-align: center;
+    margin-left: 200px;
+    padding: 80px 0;
+    background: transparent;
+    border: none;
+}
+.button button{
+	padding: 10px;
+    background: transparent;
+    margin-top:80px;
+}
+/*footer section css*/
+.footer{
+	width: 100%;
+	display: flow-root;
+	background-color: #f0f0f0;
+}
+.footer-body{
+	width: 100%;
+	float: left;
+	padding: 25px ,0;
+}
+.f-left{
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.f-right{
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+.f-left ul li,.f-right ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.f-left ul li{
+	margin-right: 20px;
+}
+.f-right ul li{
+	margin-left: 20px;
+}
